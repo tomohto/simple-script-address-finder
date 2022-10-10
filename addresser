@@ -1,0 +1,5 @@
+import webbrowser
+import pyperclip
+
+holder = pyperclip.paste()
+webbrowser.open('https://www.google.com/maps/place/' + holder)
